@@ -26,5 +26,5 @@ services:
         source: ./logs # 日志地址，根据需要修改为本地地址
         target: /home/easy-mock/easy-mock/logs
       - type: bind
-        source: ./production.json # 配置地址，请使用本地配置地址替换
+        source: ./default.json # 配置地址，请使用本地配置地址替换
         target: /home/easy-mock/easy-mock/config/production.json
